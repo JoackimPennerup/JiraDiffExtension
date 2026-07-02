@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Jira readable diffs",
+  "description": "Render Jira issue history description changes as readable HTML diffs.",
+  "version": "0.1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*", "https://*.jira.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
