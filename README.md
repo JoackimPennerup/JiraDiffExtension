@@ -9,6 +9,7 @@ Browser extension for Chrome and Microsoft Edge that renders Jira issue history 
 - Falls back to reading the two large plaintext value blocks Jira renders in the history item.
 - Converts Jira wiki-style markup and simple ADF JSON documents into HTML.
 - Uses `@benedicte/html-diff` to display inserted and deleted HTML inline.
+- Adds a per-change toggle so you can switch between Jira's original rendering and the readable diff.
 
 ## Development
 
